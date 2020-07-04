@@ -1,0 +1,195 @@
+.post1 {
+  width: 100%;
+  background-color: #ffffff;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.15), 0 2px 3px rgba(0, 0, 0, 0.2);
+  border-radius: 2px;
+  margin-bottom: 8px;
+}
+
+.posthead {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 16px 0 16px;
+  margin-bottom: 8px;
+}
+
+.postprofile {
+  display: flex;
+}
+
+.postprofile .postprofilename {
+  display: flex;
+  flex-direction: column;
+  margin-left: 8px;
+}
+
+.postprofile .postprofilename .name {
+  font-size: 1.4rem;
+  line-height: 1.42857;
+  color: rgba(0, 0, 0, 0.9);
+  font-weight: 600;
+}
+
+.postprofile .postprofilename .designation {
+  font-size: 1.2rem;
+  line-height: 1.33333;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.postprofile .postprofilename .datesvg {
+  display: flex;
+  align-items: center;
+  font-size: 1.2rem;
+  line-height: 1.33333;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.postprofile .postprofilename .datesvg svg {
+  margin-left: 5px;
+}
+
+.postprofile .postprofilename .name span {
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.postprofile .postprofilepic {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+}
+
+.postprofile .postprofilepic img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+.posthead .postmenu {
+  margin-top: -5px;
+}
+
+.posthead .postmenu svg {
+  box-sizing: content-box;
+  border-radius: 50%;
+  padding: 5px;
+}
+
+.posthead .postmenu svg:hover {
+  background-color: rgba(182, 182, 182, 0.15);
+}
+
+.posthead .postmenu a {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.postpic img {
+  width: 100%;
+}
+
+.postlike ul {
+  padding: 8px 0;
+  margin: 0 16px;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #e6e9ec;
+}
+
+.postlike ul li {
+  margin-right: 4px;
+}
+
+.postlike ul span {
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.6);
+  margin-top: -3px;
+  margin-left: 5px;
+}
+
+.postlike ul li:hover {
+  cursor: pointer;
+}
+
+.postlike ul span:hover {
+  color: rgb(64, 64, 255);
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.postlike .buttons {
+  padding: 4px 8px;
+  display: flex;
+}
+
+.postlike .buttons a {
+  padding: 10px 8px;
+  display: flex;
+  align-items: center;
+  font-size: 1.4rem;
+  color: rgba(0, 0, 0, 0.6);
+  text-decoration: none;
+  font-weight: 600;
+  border-radius: 2px;
+}
+
+.postlike .buttons a:hover {
+  background-color: rgba(182, 182, 182, 0.15);
+}
+
+.postlike .buttons a svg {
+  margin-right: 4px;
+}
+
+.post2 {
+  width: 100%;
+  background-color: #ffffff;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.15), 0 2px 3px rgba(0, 0, 0, 0.2);
+  border-radius: 2px;
+  margin-bottom: 8px;
+}
+
+.post2 .postmenu {
+  display: flex;
+  justify-content: space-between;
+  padding: 3px 12px;
+  align-items: center;
+  border-bottom: 1px solid #e6e9ec;
+}
+
+.post2 .postmenu a {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.post2 .postmenu a svg {
+  box-sizing: content-box;
+  padding: 5px;
+  border-radius: 50%;
+}
+
+.post2 .postmenu a svg:hover {
+  background-color: rgba(182, 182, 182, 0.15);
+}
+
+.post2 .postmenu p {
+  font-size: 1.2rem;
+}
+
+.post2 .postmenu .likedit {
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.9);
+  margin-right: 0.5rem;
+}
+
+.post2 .postmenu .likecomment {
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.post2 .postmenu .likedit:hover {
+  color: #0073b1;
+  text-decoration: underline;
+  cursor: pointer;
+}

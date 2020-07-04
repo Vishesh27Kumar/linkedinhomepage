@@ -1,0 +1,157 @@
+.newsandvideos,
+.adsection {
+  width: 100%;
+  border-radius: 2px;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.15), 0 2px 3px rgba(0, 0, 0, 0.2);
+  background-color: #ffffff;
+}
+
+.newsandvideos {
+  min-height: 320px;
+  padding: 12px 0;
+  margin-bottom: 8px;
+}
+
+.newsandvideos .newsheading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 4px 0 12px;
+}
+
+.newsandvideos .newsheading p {
+  font-size: 1.6rem;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+.newsandvideos .newsheading a {
+  text-decoration: none;
+}
+.newsandvideos .newsheading a svg {
+  width: 1.6rem;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.newsandvideos ul {
+  margin: 8px 0 12px;
+  list-style: none;
+}
+
+.newsandvideos ul li {
+  margin: 1rem 0;
+}
+
+.newsandvideos ul li div {
+  margin-top: 4px;
+  padding-right: 16px;
+  font-size: 1.4rem;
+  line-height: 1.42857;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.9);
+  margin-bottom: 2px;
+}
+
+.newsandvideos ul li div span {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 8px;
+  margin-left: 12px;
+  border: 4px solid #33aada;
+}
+
+.newsandvideos ul li p {
+  padding: 0 12px 0 28px;
+  font-size: 1.2rem;
+  line-height: 1.33333;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.newsandvideos a {
+  text-decoration: none;
+  font-size: 1.4rem;
+  min-height: 2.4rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  padding: 2px 8px;
+  margin-left: 20px;
+}
+
+.newsandvideos a svg {
+  margin-left: 5px;
+  margin-top: 4px;
+}
+
+.newsandvideos a,
+.newsandvideos a svg {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.adsection {
+  min-height: 262px;
+  padding: 6px;
+}
+.adsection img {
+  width: 100%;
+}
+
+.footer {
+  min-height: 153px;
+  margin-bottom: 2rem;
+  margin-top: 20px;
+  border-top: 1px solid #cfcfcf;
+}
+
+.footer ul {
+  margin: 16px auto;
+  line-height: 20px;
+  text-align: center;
+  list-style: none;
+}
+
+.footer ul li {
+  display: inline;
+}
+
+.footer ul li a {
+  margin: 0 2rem;
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.6);
+  font-weight: 450;
+}
+
+.footer ul li a:hover {
+  color: #0073b1;
+}
+
+.footer ul li a svg {
+  margin-left: 5px;
+  margin-bottom: -5px;
+}
+
+.footer .desclogo {
+  margin: 16px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.9);
+}
+.footer .desclogo p {
+  margin-left: 5px;
+}
+
+/* -------sticky class ------ */
+
+.sticky {
+  margin-top: 0;
+  position: fixed;
+  top: 0;
+  z-index: 9999;
+}
