@@ -9,10 +9,18 @@
   top: -1px;
 }
 
+.backicon {
+  display: none;
+}
+
 .navbar .wrapper {
   display: flex;
   flex-direction: row;
   align-items: center;
+}
+
+.navbar .wrapper > .image {
+  display: none;
 }
 
 .navbar .logo {
@@ -52,6 +60,10 @@
 }
 
 .navbar form #search .searchblue {
+  display: none;
+}
+
+.navbar form #search .search2 {
   display: none;
 }
 
@@ -99,11 +111,12 @@
 .myimage {
   border-right: 1px solid #5c6f7c;
   position: relative;
-  padding-top: 3px;
+  margin-top: -1px;
+  padding-top: 2px;
 }
 
 .myimage a .image img {
-  border: 1px solid #c7d1d8;
+  border: 1px solid #1d3e57;
   border-radius: 50%;
   width: 25px;
   height: 25px;
@@ -194,4 +207,77 @@ nav ul li a {
 
 .lastnav a:hover p {
   text-decoration: underline;
+}
+
+.navbar .wrapper > .message {
+  display: none;
+}
+
+@media only screen and (max-width: 750px) {
+  .backicon {
+    padding: 3px 5px 0 0;
+  }
+
+  .backicon svg {
+    color: rgba(0, 0, 0, 0.6);
+  }
+
+  .navbar form input:focus ~ #search {
+    display: none;
+  }
+
+  #overlay {
+    background-color: white;
+    top: 48px;
+  }
+  .navbar .wrapper > .image {
+    display: initial;
+  }
+
+  .navbar .logo {
+    display: none;
+  }
+  nav {
+    display: none;
+  }
+  .navbar .wrapper {
+    width: 100%;
+  }
+  .navbar .wrapper > .message {
+    display: initial;
+    color: white;
+    padding: 0 10px;
+  }
+  .navbar form {
+    width: 100%;
+    margin-right: 8px;
+  }
+  .navbar .wrapper img {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+  }
+  .navbar .wrapper .image {
+    width: 32px;
+    height: 30px;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin-right: 16px;
+  }
+  .navbar form input {
+    height: 32px;
+    font-size: 1.6rem;
+  }
+  .navbar form #search .search {
+    display: none;
+  }
+  .navbar form #search .search2 {
+    display: initial;
+  }
+  .navbar form #search {
+    margin: 0 4px 0 2px;
+  }
+  .navbar form #search img {
+    width: 1.5rem;
+  }
 }

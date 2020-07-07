@@ -1,0 +1,52 @@
+.navbottom {
+  display: none;
+}
+
+@media only screen and (max-width: 750px) {
+  .navbottom {
+    display: initial;
+    position: fixed;
+    bottom: 0;
+    box-shadow: 0 -1px 3px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    height: 48px;
+    z-index: 10;
+    background-color: white;
+  }
+  .navbottom ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 20px;
+  }
+
+  .navbottom ul li a {
+    font-size: 1.1rem;
+    color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+  }
+  .navbottom ul li a .svgbadge {
+    position: relative;
+  }
+  .navbottom ul li a span {
+    position: absolute;
+    min-width: 16px;
+    height: 16px;
+    background-color: #d11124;
+    border-radius: 50%;
+    color: white;
+    text-align: center;
+    line-height: 15px;
+    margin-left: -4px;
+    font-weight: 600;
+    font-size: 1.1rem;
+  }
+  .navbottom ul li .homeicon,
+  .navbottom ul li .homeicon svg {
+    color: #0073b1;
+  }
+}

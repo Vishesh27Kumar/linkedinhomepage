@@ -193,3 +193,26 @@
   text-decoration: underline;
   cursor: pointer;
 }
+
+@media only screen and (max-width: 750px) {
+  .post2,
+  .post1 {
+    box-shadow: none;
+  }
+  .postlike .buttons {
+    display: flex;
+    justify-content: space-between;
+  }
+  .postlike .buttons .sendbtn {
+    display: none;
+  }
+  .postlike .buttons a svg {
+    color: rgba(0, 0, 0, 0.6) !important;
+  }
+  .postmenu svg {
+    transform: rotateZ(90deg);
+    width: 15px;
+    height: 15px;
+    color: black;
+  }
+}

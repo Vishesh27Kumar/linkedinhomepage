@@ -14,12 +14,39 @@
     <link rel="stylesheet" href="./css/profile.css" />
     <link rel="stylesheet" href="./css/news.css" />
     <link rel="stylesheet" href="./css/posts.css" />
+    <link rel="stylesheet" href="./css/navbottom.css" />
     <title>LinkedIn</title>
   </head>
   <body>
-    <header>
+    <header id="header">
       <div class="navbar">
         <div class="wrapper">
+          <a href="" class="image">
+            <img
+              src="./images/vladimir-tsokalo-N3moZ3Gn-gI-unsplash.jpg"
+              alt="me"
+            />
+          </a>
+
+          <div class="backicon">
+            <svg
+              viewBox="0 0 24 24"
+              width="24px"
+              height="24px"
+              x="0"
+              y="0"
+              preserveAspectRatio="xMinYMin meet"
+              class="artdeco-icon icon"
+            >
+              <path
+                d="M2,12a1,1,0,0,1,.29-0.71L10.59,3l1.29,1.29L5.17,11H21v2H5.17l6.71,6.71L10.59,21,2.29,12.71A1,1,0,0,1,2,12Z"
+                class="large-icon"
+                style="fill: currentColor;"
+                id="arrow-left-icon-large"
+              ></path>
+            </svg>
+          </div>
+
           <div class="logo">
             <img src="./svg/linkedinsvg.svg" alt="linkedin logo" />
           </div>
@@ -27,9 +54,27 @@
             <input type="text" id="inputsearch" placeholder="Search" />
             <div id="search">
               <img class="search" src="./svg/search.svg" alt="search" />
+              <img class="search search2" src="./svg/search.svg" alt="search" />
               <img class="searchblue" src="./svg/searchblue.svg" alt="search" />
             </div>
           </form>
+          <a href="#" class="message">
+            <svg
+              viewBox="0 0 32 32"
+              width="32px"
+              height="32px"
+              x="0"
+              y="0"
+              preserveAspectRatio="xMinYMin meet"
+              class="nav-icon icon"
+            >
+              <g class="inactive-item" style="fill: currentColor;">
+                <path
+                  d="M8,20H5c-0.6,0-1-0.4-1-1V7c0-0.6,0.4-1,1-1h16c0.6,0,1,0.4,1,1v3h-2V8H6v10h2V20z M26,14H12v10h11.7l2.3,2.1V14 M27,12c0.6,0,1,0.4,1,1v17l-5-4H11c-0.6,0-1-0.4-1-1V13c0-0.6,0.4-1,1-1H27z M24,17H14v1h10V17z M22,20h-8v1h8V20z"
+                ></path>
+              </g>
+            </svg>
+          </a>
         </div>
         <nav>
           <ul>
@@ -239,7 +284,27 @@
     </header>
     <div id="overlay"></div>
     <main id="main">
-      <div class="banner"></div>
+      <div class="banner">
+        <form action="">
+          <svg
+            viewBox="0 0 24 24"
+            width="24px"
+            height="24px"
+            x="0"
+            y="0"
+            preserveAspectRatio="xMinYMin meet"
+            class="artdeco-icon icon"
+          >
+            <path
+              d="M17,13.75l2-2V20a1,1,0,0,1-1,1H4a1,1,0,0,1-1-1V6A1,1,0,0,1,4,5h8.25l-2,2H5V19H17V13.75Zm5-8a1,1,0,0,1-.29.74L13.15,15,7,17l2-6.15,8.55-8.55a1,1,0,0,1,1.41,0L21.71,5A1,1,0,0,1,22,5.71ZM17.93,7.58l-1.5-1.5-6.06,6.06,1.5,1.5Zm1.84-1.84-1.5-1.5L17.09,5.41l1.5,1.5Z"
+              class="large-icon"
+              style="fill: currentColor;"
+              id="compose-icon-large"
+            ></path>
+          </svg>
+          <input type="text" placeholder="Share your thoughts or photos" />
+        </form>
+      </div>
       <div class="mainwrap">
         <aside class="profile">
           <div class="userprofile">
@@ -1029,14 +1094,140 @@
             </div>
           </section>
         </aside>
+        <div class="navbottom">
+          <ul>
+            <li>
+              <a href="#" class="homeicon">
+                <svg
+                  viewBox="0 0 24 24"
+                  width="24px"
+                  height="24px"
+                  x="0"
+                  y="0"
+                  preserveAspectRatio="xMinYMin meet"
+                  class="nav-icon"
+                  focusable="false"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M22,9.45,12.85,3.26A1.52,1.52,0,0,0,12,3a1.49,1.49,0,0,0-.84.26L2,9.45,3.06,11,4,10.37V20a1,1,0,0,0,1,1h5V16h4v5h5a1,1,0,0,0,1-1V10.37l.94.63Z"
+                    class="active-item"
+                    style="fill-opacity: 1; fill: #0073b1;"
+                  ></path>
+                  <path
+                    d="M22,9.45L12.85,3.26a1.5,1.5,0,0,0-1.69,0L2,9.45,3.06,11,4,10.37V20a1,1,0,0,0,1,1h6V16h2v5h6a1,1,0,0,0,1-1V10.37L20.94,11ZM18,19H15V15a1,1,0,0,0-1-1H10a1,1,0,0,0-1,1v4H6V8.89l6-4,6,4V19Z"
+                    class="inactive-item"
+                    style="fill: currentColor;"
+                  ></path>
+                </svg>
+                <p>Home</p>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <svg
+                  viewBox="0 0 24 24"
+                  width="24px"
+                  height="24px"
+                  x="0"
+                  y="0"
+                  preserveAspectRatio="xMinYMin meet"
+                  class="nav-icon"
+                  focusable="false"
+                >
+                  <path
+                    d="M20.74,14.2L19,13.54V12.86l0.25-.41A5,5,0,0,0,20,9.82V9a3,3,0,0,0-6,0V9.82a5,5,0,0,0,.75,2.63L15,12.86v0.68l-1,.37a4,4,0,0,0-.58-0.28l-2.45-1V10.83A8,8,0,0,0,12,7V6A4,4,0,0,0,4,6V7a8,8,0,0,0,1,3.86v1.84l-2.45,1A4,4,0,0,0,0,17.35V20a1,1,0,0,0,1,1H22a1,1,0,0,0,1-1V17.47A3.5,3.5,0,0,0,20.74,14.2ZM16,8.75a1,1,0,0,1,2,0v1.44a3,3,0,0,1-.38,1.46l-0.33.6a0.25,0.25,0,0,1-.22.13H16.93a0.25,0.25,0,0,1-.22-0.13l-0.33-.6A3,3,0,0,1,16,10.19V8.75ZM6,5.85a2,2,0,0,1,4,0V7.28a6,6,0,0,1-.71,2.83L9,10.72a1,1,0,0,1-.88.53H7.92A1,1,0,0,1,7,10.72l-0.33-.61A6,6,0,0,1,6,7.28V5.85ZM14,19H2V17.25a2,2,0,0,1,1.26-1.86L7,13.92v-1a3,3,0,0,0,1,.18H8a3,3,0,0,0,1-.18v1l3.72,1.42A2,2,0,0,1,14,17.21V19Zm7,0H16V17.35a4,4,0,0,0-.55-2l1.05-.4V14.07a2,2,0,0,0,.4.05h0.2a2,2,0,0,0,.4-0.05v0.88l2.53,1a1.5,1.5,0,0,1,1,1.4V19Z"
+                    class="inactive-item"
+                    style="fill: currentColor;"
+                  ></path>
+                </svg>
+                <p>My Network</p>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M12 22.5C6.20101 22.5 1.5 17.799 1.5 12C1.5 6.20101 6.20101 1.5 12 1.5C17.799 1.5 22.5 6.20101 22.5 12C22.5 17.799 17.799 22.5 12 22.5ZM12 21C16.9706 21 21 16.9706 21 12C21 7.02944 16.9706 3 12 3C7.02944 3 3 7.02944 3 12C3 16.9706 7.02944 21 12 21ZM13 13H18V11H13V6H11V11H6V13H11V18H13V13Z"
+                    fill="black"
+                    fill-opacity="0.6"
+                  ></path>
+                </svg>
+                <p>Post</p>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <div class="svgbadge">
+                  <svg
+                    viewBox="0 0 24 24"
+                    width="24px"
+                    height="24px"
+                    x="0"
+                    y="0"
+                    preserveAspectRatio="xMinYMin meet"
+                    class="nav-icon"
+                    focusable="false"
+                  >
+                    <path
+                      d="M20.94,19L19,14.49s-0.41-3.06-.8-6.06A6.26,6.26,0,0,0,12,3h0A6.26,6.26,0,0,0,5.79,8.44L5,14.49,3.06,19a0.71,0.71,0,0,0-.06.28,0.75,0.75,0,0,0,.75.76H10a2,2,0,1,0,4,0h6.27A0.74,0.74,0,0,0,20.94,19ZM12,4.75h0a4.39,4.39,0,0,1,4.35,3.81c0.28,2.1.56,4.35,0.7,5.44H7L7.65,8.56A4.39,4.39,0,0,1,12,4.75ZM5.52,18l1.3-3H17.18l1.3,3h-13Z"
+                      class="inactive-item"
+                      style="fill: currentColor;"
+                    ></path>
+                  </svg>
+                  <span class="badge">1</span>
+                </div>
+                <p>Notifications</p>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <svg
+                  viewBox="0 0 24 24"
+                  width="24px"
+                  height="24px"
+                  x="0"
+                  y="0"
+                  preserveAspectRatio="xMinYMin meet"
+                  class="nav-icon"
+                  focusable="false"
+                >
+                  <path
+                    d="M21,7H17V6a3,3,0,0,0-3-3H10A3,3,0,0,0,7,6V7H3A1,1,0,0,0,2,8V19a1,1,0,0,0,1,1H21a1,1,0,0,0,1-1V8A1,1,0,0,0,21,7ZM9,6a1,1,0,0,1,1-1h4a1,1,0,0,1,1,1V7H9V6ZM20,18H4V13H20v5Zm0-6H4V9H20v3Z"
+                    class="inactive-item"
+                    style="fill: currentColor;"
+                  ></path>
+                </svg>
+                <p>Jobs</p>
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
     </main>
+
     <script>
       document.getElementById("inputsearch").addEventListener("focus", () => {
         document.getElementById("overlay").style.display = "block";
+        document.getElementsByClassName("image")[0].style.display = "none";
+        document.getElementsByClassName("message")[0].style.display = "none";
+        document.getElementsByClassName("backicon")[0].style.display = "initial";
+        document.getElementById("header").style.backgroundColor = "#ffffff";
       });
       document.getElementById("inputsearch").addEventListener("blur", () => {
         document.getElementById("overlay").style.display = "none";
+        document.getElementsByClassName("image")[0].style.display = "initial";
+        document.getElementsByClassName("message")[0].style.display = "initial";
+        document.getElementsByClassName("backicon")[0].style.display = "none";
+        document.getElementById("header").style.backgroundColor = "#0073b1";
       });
     </script>
   </body>

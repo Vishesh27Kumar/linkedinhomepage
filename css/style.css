@@ -31,3 +31,18 @@ main {
   position: relative;
   top: 52px;
 }
+
+@media only screen and (max-width: 750px) {
+  body {
+    background-color: #e1e9ee;
+  }
+  header {
+    background-color: #0073b1;
+    height: 48px;
+    padding: 8px 6px 8px 16px;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+  }
+  main {
+    top: 48px;
+  }
+}
